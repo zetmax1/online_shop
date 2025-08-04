@@ -5,6 +5,9 @@ This project provides a complete backend solution for an e-commerce platform. Us
 place orders. Admins can manage products and view all orders. The API uses JWT tokens for secure authentication and
 includes proper permission controls to ensure users can only access their own data.
 
+## IMPORTANT
+I changed email's so you can write your email and password inside of setting.
+Database settings must be adjusted before running the project
 ## Features
 
 - User registration and authentication with JWT

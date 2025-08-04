@@ -8,7 +8,7 @@ def send_email(subject, message, recipient_list):
     send_mail(
         subject,
         message,
-        'zokhidjonyuta@gmail.com',
+        'email@gmail.com', #I changed it, you can write your email here
         [recipient_list],
     )
 
@@ -19,7 +19,7 @@ def send_reset_code(recipient_list, code):
     message = f"Your new code is: {code}"
     send_mail(subject,
               message,
-              'zokhidjonyuta@gmail.com',
+              'email@gmail.com', #I changed it, you can write your email here
               [recipient_list],
               fail_silently=False
               )
